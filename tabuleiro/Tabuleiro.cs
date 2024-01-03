@@ -4,13 +4,18 @@
     {
         public int Linha { get; set; }
         public int Coluna { get; set; }
-        public Peca[,] pecas;
+        private Peca[,] pecas;
 
         public Tabuleiro(int linha, int coluna)
         {
             Linha = linha;
             Coluna = coluna;    
-            pecas = new Peca[Linha, Coluna];
+            pecas = new Peca[linha, coluna];
+        }
+
+        public Peca peca(int linha, int coluna) 
+        {
+            return pecas[linha, coluna];
         }
     }
 }
