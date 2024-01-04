@@ -1,6 +1,6 @@
 ﻿using tabuleiro;
 
-namespace xadez
+namespace xadrez
 {
     internal class Rei : Peca
     {
