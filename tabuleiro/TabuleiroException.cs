@@ -1,4 +1,4 @@
-﻿namespace xadrez_console.tabuleiro
+﻿namespace tabuleiroE
 {
     internal class TabuleiroException : Exception
     {
